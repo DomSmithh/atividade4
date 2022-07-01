@@ -1,31 +1,37 @@
-.pokemon{
-    border: 1px solid black;
-    border-radius: 20px;
-
-    margin-left: 20px;
-    margin-bottom: 10px;
-    background-color: #EEE;
-
-    display: flex;
-    width: 500px;
-}
-
-.rounded-foto{
+.paginas{
+    border-radius: 5px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 115px;
+    height: 115px;
+}
+
+.paginas:hover{
+    background-color: #D3D3D3;
+    color: black;
+}
+
+.foto-pag{
+    margin-top: 15px;
+    background-color: #E9E9E9;
     border-radius: 50%;
+    width: 45px;
+    height: 45px;
 }
 
-.foto-perfil{
-    width: 128px;
+.foto{
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 24px;
+    height: 24px;
 }
 
-.info-pokemon{
-    margin-left: 20px;
+.nome-pag{
+    color: black;
+    font: 15px Arial;
+    margin: 10px;
+    text-align: center;
 }
-
-.titulo{
-    margin: 5px 0;
-    font-size: 36px;
-    font-weight: bold;
-}
-
