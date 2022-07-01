@@ -40,3 +40,9 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 575px;
+}
